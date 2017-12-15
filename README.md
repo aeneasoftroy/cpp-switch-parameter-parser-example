@@ -1,4 +1,7 @@
 # cpp-switch-parameter-parser-example
+
+![alt text](https://github.com/stephanvandekerkhof/cpp-switch-parameter-parser-example/blob/master/cpp-switch-parameter-parser-example.png)
+
 Compiler: GNU GCC (Code::Blocks 13.12)
 
 Description: Example of a C++ switch parameter parser that translates given switches to variables for your code to work with, no additional libraries required.
