@@ -14,7 +14,7 @@ using namespace std;
 int main(int argc, char* argv[]) {
     std::string myPath, myFile, myOutPath;
     if (argc < 5) { // Check the value of argc. If not enough parameters have been passed, display a usage example and exit. It's set to 5 because we need 4 actual parameters, argv[0] is always the name of the program being ran, 1-4 being what we actually need, adds up to 5.
-        std::cout << "Usage: "<< argv[0] << " " << "-in <infile> -out <outdir>" << endl; // usage example
+        std::cout << "Usage: "<< argv[0] << " " << "-f <infile> -p <path> -o <outdir>" << endl; // usage example
         std::cin.get();
         return(0);
     } else { // When there are enough parameters we proceed:
