@@ -11,4 +11,4 @@ mingw32-g++.exe -Wall -fexceptions -O2  -c "main.cpp" -o obj\Release\main.o
 
 mingw32-g++.exe -o bin\Release\file-line-splitter.exe obj\Release\main.o -s  
 
--- Stephan
+-- Steffan
